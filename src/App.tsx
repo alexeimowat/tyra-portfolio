@@ -24,7 +24,7 @@ function App() {
               <a href="#work" className="border-b-2 border-green-900 pb-1 text-sm font-bold uppercase tracking-widest hover:text-green-600 hover:border-green-600 transition-colors text-green-950">
                 View Field Work
               </a>
-              <a href="mailto:tyra@example.com" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-800/50 hover:text-green-900 hover:border-green-900 transition-colors">
+              <a href="mailto:tyraparks98@gmail.com" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-800/50 hover:text-green-900 hover:border-green-900 transition-colors">
                 Get in Touch
               </a>
             </div>
