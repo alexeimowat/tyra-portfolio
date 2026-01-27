@@ -5,7 +5,7 @@ function App() {
     <div className="min-h-screen bg-white text-zinc-900 font-sans selection:bg-green-100">
       
       {/* 1. HERO SECTION - WITH PROFILE PIC */}
-      <section className="min-h-[70vh] flex flex-col justify-center px-6 lg:px-12 bg-gradient-to-b from-green-50 to-white pt-20 pb-12">
+      <section className="min-h-[70vh] flex flex-col justify-center px-6 lg:px-12 bg-gradient-to-b from-green-200 to-white pt-20 pb-12">
         <div className="max-w-6xl mx-auto w-full flex flex-col-reverse md:flex-row items-center gap-12">
           
           <div className="flex-1 text-center md:text-left">
@@ -119,7 +119,7 @@ function App() {
                   When I'm not in chest waders sampling water quality, I'm usually exploring the Alberta backcountry or trying to identify local fungi species.
                 </p>
                 <p>
-                  I'm a proud cat mom to <strong>Max and Ellie</strong> (pictured left), and I believe the best way to understand an ecosystem is to spend as much time as possible living in it.
+                  I'm a proud cat mom to <strong>Max and Ellie</strong>, and I believe the best way to understand an ecosystem is to spend as much time as possible living in it.
                 </p>
               </div>
             </div>
