@@ -30,5 +30,13 @@ export const projects = [
     location: "Calgary, AB",
     description: "As a CreekWatch volunteer, I monitor my local stream for water quality. I conduct weekly assessments with my team by gathering precise data on pH, dissolved oxygen, turbidity, nutrient levels and more. I also collect and analyze invertebrate species, especially Mayflies, an important indicator species. These efforts provide essential information for long-term environmental trends.",
     image: "/images/creekWatch.webp"
+  },
+  {
+    id: 5,
+    title: "Gardener",
+    category: "Work Experience",
+    location: "Calgary, AB",
+    description: "As a seasonal gardener, my environmental skills were consistently put to the test while working in areas with dense vegetation, invasive species, and degraded soils. While managing a small team, my work involved restoring over 50+ botanical landscapes through site cleanup, planting, and transplanting a wide range of native vegetation. I also regularly rehabilitated soils to create suitable growing conditions for plants. My day-to-day work required physical endurance, time management and safe operation of trucks and tools, all while adapting to changing environmental conditions.",
+    image: "/images/gardener.webp"
   }
 ]
