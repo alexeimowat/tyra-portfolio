@@ -1,11 +1,53 @@
 import { projects } from './data';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [showScrollBtn, setShowScrollBtn] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollBtn(true);
+      } else {
+        setShowScrollBtn(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const isAtTop = !showScrollBtn;
+
   return (
     <div className="min-h-screen bg-white text-zinc-900 font-sans selection:bg-green-100">
       
+      {/* 0. BACK TO TOP BUTTON */}
+      {!isAtTop && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="fixed bottom-8 right-8 z-50 bg-white text-black w-14 h-14 rounded-full shadow-xl flex items-center justify-center hover:bg-zinc-50 hover:-translate-y-1 transition-all duration-300 border border-zinc-100"
+          aria-label="Back to top"
+        >
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            strokeWidth={2.5} 
+            stroke="currentColor" 
+            className="w-6 h-6"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+        </button>
+      )}
+
       {/* 1. HERO SECTION - WITH PROFILE PIC */}
-      <section className="min-h-[70vh] flex flex-col justify-center px-6 lg:px-12 bg-gradient-to-b from-green-200 to-white pt-20 pb-12">
+      <section id="hero" className="min-h-[70vh] flex flex-col justify-center px-6 lg:px-12 bg-gradient-to-b from-green-200 to-white pt-20 pb-12">
         <div className="max-w-6xl mx-auto w-full flex flex-col-reverse md:flex-row items-center gap-12">
           
           <div className="flex-1 text-center md:text-left">
