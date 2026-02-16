@@ -16,8 +16,7 @@ function App() {
               Tyra Parks.
             </h1>
             <p className="text-xl md:text-2xl text-green-900/60 max-w-xl leading-relaxed mx-auto md:mx-0">
-              Specializing in field data collection, restoration ecology, and volunteer leadership. 
-              Based in Alberta, Canada.
+              Environmental Science graduate and Environmental Technology student passionate about making a positive impact on the natural world through field-based environmental monitoring.
             </p>
             
             <div className="mt-8 flex gap-6 justify-center md:justify-start">
@@ -116,10 +115,10 @@ function App() {
               </h2>
               <div className="space-y-4 text-lg text-zinc-600 leading-relaxed">
                 <p>
-                  When I'm not in chest waders sampling water quality, I'm usually exploring the Alberta backcountry or trying to identify local fungi species.
+                  When I’m not working in the field, I spend my time exploring nature and trying new experiences. I love hiking, attending local events, and cheering on my favourite sports teams (Go Flames 🔥)!
                 </p>
                 <p>
-                  I'm a proud cat mom to <strong>Max and Ellie</strong>, and I believe the best way to understand an ecosystem is to spend as much time as possible living in it.
+                  I’m also a proud cat mom to <strong>Max and Ellie</strong>, and I enjoy relaxing with movies or spending time playing board games with friends and family.
                 </p>
               </div>
             </div>
@@ -131,7 +130,7 @@ function App() {
       {/* 3. FOOTER */}
       <footer id="contact" className="bg-zinc-50 py-16 border-t border-zinc-100">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h3 className="text-2xl font-bold mb-6">Ready to work together?</h3>
+          <h3 className="text-2xl font-bold mb-6">Please feel free to reach out to me if you want to chat or have any questions.</h3>
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             
