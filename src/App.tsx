@@ -21,10 +21,10 @@ function App() {
             </p>
             
             <div className="mt-8 flex gap-6 justify-center md:justify-start">
-              <a href="#work" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-700 hover:text-green-900 hover:border-green-900 transition-colors">
+              <a href="#work" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-900 hover:border-green-900">
                 View Field Work
               </a>
-              <a href="#contact" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-700 hover:text-green-900 hover:border-green-900 transition-colors">
+              <a href="#contact" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-900 hover:border-green-900">
                 Get in Touch
               </a>
             </div>
