@@ -47,7 +47,7 @@ function App() {
 
       {/* 2. ZIG-ZAG PROJECT LIST */}
       <main id="work" className="py-20">
-        <div className="max-w-5xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           
           {projects.map((project, index) => (
             <div key={project.id} className="mb-20 last:mb-0">
@@ -64,7 +64,7 @@ function App() {
                   <h2 className="text-3xl font-bold mb-4 text-black">
                     {project.title}
                   </h2>
-                  <p className="text-lg text-zinc-600 leading-relaxed mb-6">
+                  <p className="text-xl text-zinc-600 leading-relaxed mb-6">
                     {project.description}
                   </p>
                   
