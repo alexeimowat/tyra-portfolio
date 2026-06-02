@@ -1,6 +1,14 @@
 export const projects = [
-    {
+  {
     id: 1,
+    title: "Practicum Intern",
+    category: "Work Experience",
+    location: "Calgary, AB",
+    description: "During my practicum with Nichols Environmental + Engineering, I gained hands-on experience in environmental consulting through groundwater monitoring, Phase I ESA investigations, and spill response planning. This role strengthened my field sampling, research, and environmental reporting skills while exposing me to real-world environmental projects.",
+    image: "/images/professional-practicum.webp"
+  },
+  {
+    id: 2,
     title: "Environmental Technology Field School",
     category: "Field Work",
     location: "Kananaskis, AB",
@@ -8,7 +16,7 @@ export const projects = [
     image: "/images/field-school.webp" 
   },
   {
-    id: 2,
+    id: 3,
     title: "Riverbank Reclamation",
     category: "Volunteer",
     location: "South Ghost Provincial Recreation Area, AB",
@@ -16,7 +24,7 @@ export const projects = [
     image: "/images/riparian-volunteer.webp"
   },
   {
-    id: 3,
+    id: 4,
     title: "Riparian Restoration",
     category: "Volunteer",
     location: "Didsbury, AB",
@@ -24,15 +32,31 @@ export const projects = [
     image: "/images/didsbury.webp"
   },
   {
-    id: 4,
+    id: 5,
     title: "Water Quality Monitoring Volunteer",
     category: "Volunteer",
     location: "Calgary, AB",
-    description: "As a CreekWatch volunteer, I monitor my local stream for water quality. I conduct weekly assessments with my team by gathering precise data on pH, dissolved oxygen, turbidity, nutrient levels and more. I also collect and analyze invertebrate species, especially Mayflies, an important indicator species. These efforts provide essential information for long-term environmental trends.",
+    description: "As a CreekWatch volunteer, I monitor my local stream for water quality. I conduct weekly assessments with my team by gathering precise data on pH, dissolved oxygen, turbidity, nutrient levels and more. I also collect and analyze invertebrate species, especially mayflies, which are important indicator species. These efforts provide essential information for long-term environmental trends.",
     image: "/images/creekWatch.webp"
   },
   {
-    id: 5,
+    id: 6,
+    title: "Capstone Project",
+    category: "Academic",
+    location: "Calgary, AB",
+    description: "Collaborated with a team to develop an environmental education project focused on increasing public awareness of noxious plants in Alberta. Applied skills in ecology, plant identification, ArcGIS, and public communication to create an interactive learning experience featuring 3D-printed plant models, informational plaques, native seed handouts, and a custom Field Maps application. Presented the project at the end-of-term symposium, engaging attendees through hands-on education and promoting awareness of invasive plant management in Alberta.",
+    image: "/images/capstone.webp"
+  },
+  {
+    id: 7,
+    title: "Remote Sensing Project",
+    "category": "Academic",
+    location: "Calgary, AB",
+    description: "Collaborated on a research project evaluating the effectiveness of remote sensing techniques for monitoring vegetation health across multiple spatial scales. Compared aerial landscape imagery, drone-collected forest data, and close-range photography of laboratory-grown plants. Used imagery analysis, NDVI (Normalized Difference Vegetation Index), and heat mapping techniques to visually and qualitatively identify stressed vegetation. The project demonstrated how remote sensing can support applications such as habitat disturbance assessment, forest fire risk monitoring, and individual plant health analysis.",
+    image: "/images/remote-sns.webp"
+  },
+  {
+    id: 8,
     title: "Gardener",
     category: "Work Experience",
     location: "Calgary, AB",

@@ -52,18 +52,18 @@ function App() {
           
           <div className="flex-1 text-center md:text-left">
             <p className="text-sm font-bold tracking-widest uppercase text-green-800 mb-3">
-              Environmental Technician
+              Environmental Scientist
             </p>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 text-green-950">
               Tyra Parks.
             </h1>
             <p className="text-xl md:text-2xl text-green-900/60 max-w-xl leading-relaxed mx-auto md:mx-0">
-              Environmental Science graduate and Environmental Technology student passionate about making a positive impact on the natural world through field-based environmental monitoring.
+              Environmental Biology graduate with an Environmental Technology diploma, passionate about making a positive impact on the natural world through field-based environmental monitoring.
             </p>
             
             <div className="mt-8 flex gap-6 justify-center md:justify-start">
               <a href="#work" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-900 hover:border-green-900">
-                View Field Work
+                View Experience
               </a>
               <a href="#contact" className="border-b-2 border-transparent pb-1 text-sm font-bold uppercase tracking-widest text-green-900 hover:border-green-900">
                 Get in Touch
