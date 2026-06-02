@@ -58,7 +58,7 @@ function App() {
               Tyra Parks.
             </h1>
             <p className="text-xl md:text-2xl text-green-900/60 max-w-xl leading-relaxed mx-auto md:mx-0">
-              Environmental Science graduate with an Environmental Technology diploma, passionate about making a positive impact on the natural world through field-based environmental monitoring.
+              Environmental Biology graduate with an Environmental Technology diploma, passionate about making a positive impact on the natural world through field-based environmental monitoring.
             </p>
             
             <div className="mt-8 flex gap-6 justify-center md:justify-start">
